@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/home'
 import Navbar from './component/navbar'
+import MovieSeries from './component/movies'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -38,8 +39,10 @@ import Navbar from './component/navbar'
 function App(){
   return(
     <div>
-      <Navbar />
-      <Home />
+      {/* <Navbar />
+      <Home /> */
+      <MovieSeries/>
+      }
     </div>
   )
 }
